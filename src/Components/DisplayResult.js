@@ -1,6 +1,4 @@
 import React from "react";
-import {string} from "prop-types"
-
 
 const DisplayResult = props => {
   const {result, image} = props;
@@ -13,9 +11,9 @@ const DisplayResult = props => {
   )
 }
 
-DisplayResult.propTypes = {
-  image: string.isRequired,
-  result: string.isRequired,
-}
+// DisplayResult.propTypes = {
+//   image: string.isRequired,
+//   result: string.isRequired,
+// }
 
 export default DisplayResult

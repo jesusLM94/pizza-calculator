@@ -1,6 +1,4 @@
-import React from "react";
-import {number, func} from "prop-types"
-
+import React from "react"
 
 const RangeSlider = props => {
   const {min, max, onChange, value} = props;
@@ -21,11 +19,11 @@ const RangeSlider = props => {
 
 }
 
-RangeSlider.propTypes = {
-  min: number.isRequired,
-  max: number.isRequired,
-  value: number.isRequired,
-  onChange: func.isRequired,
-}
+// RangeSlider.propTypes = {
+//   min: number.isRequired,
+//   max: number.isRequired,
+//   value: number.isRequired,
+//   onChange: func.isRequired,
+// }
 
 export default RangeSlider
