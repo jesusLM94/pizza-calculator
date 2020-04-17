@@ -1,10 +1,17 @@
 import React from 'react';
+import { Provider } from 'react-redux'
+import PizzaCalculator from './Components/PizzaCalculator'
+import configStore from "./store/configStore";
 
 function App() {
+  const store = configStore()
+
   return (
-    <div className="App">
-      Hello World
-    </div>
+    <Provider store={store}>
+      <div className="App">
+        <PizzaCalculator />
+      </div>
+    </Provider>
   );
 }
 

@@ -5,7 +5,7 @@ const initialState = {
   persons: 1,
 }
 
-const reducer = (state = [], { type, payload }) => {
+const reducer = (state = initialState, { type, payload }) => {
   switch (type) {
     case UPDATE_NUMBER_OF_PERSONS:
       return {
