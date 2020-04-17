@@ -6,14 +6,17 @@ const RangeSlider = props => {
   const {min, max, onChange, value} = props;
 
   return (
-    <React.Fragment>
+    <div>
+      <span> Number of Persons: </span>
       <input className="range-input"
              value={value}
              type="range"
              min={min}
              max={max}
              onChange={event => onChange(event.target.value)}/>
-    </React.Fragment>)
+
+      <span>{ value }</span>
+    </div>)
 
 
 }
