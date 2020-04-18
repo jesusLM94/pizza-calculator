@@ -37,6 +37,11 @@ code {
   justify-content: center;
 }
 
+.section-title {
+  display: flex;
+  justify-content: center;
+}
+
 .result-container {
   flex: 1;
   display: flex;
