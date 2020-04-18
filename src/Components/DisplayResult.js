@@ -4,9 +4,9 @@ const DisplayResult = props => {
   const {result, image} = props;
 
   return (
-    <div>
-      <div>{ result }</div>
-      <img src={image} alt="pizza image" height="100" width="100" />
+    <div className="result-container">
+      <div className="result-value">{ result }</div>
+      <img src={image} alt="pizza image" className="result-image"/>
     </div>
   )
 }

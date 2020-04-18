@@ -4,8 +4,8 @@ const RangeSlider = props => {
   const {min, max, onChange, value} = props;
 
   return (
-    <div>
-      <span> Number of Persons: </span>
+    <div className="slider-container">
+      <span className="slider-title"> Number of Persons: </span>
       <input className="range-input"
              value={value}
              type="range"
@@ -13,7 +13,7 @@ const RangeSlider = props => {
              max={max}
              onChange={event => onChange(event.target.value)}/>
 
-      <span>{ value }</span>
+      <span className="slider-value">{ value }</span>
     </div>)
 
 
