@@ -10,7 +10,7 @@ export const PizzaCalculator = props => {
   const pizzaImage = "https://cdn.pixabay.com/photo/2016/02/19/11/30/pizza-1209748_1280.jpg"
 
   React.useEffect(() => {
-    updateNumberOfPizzas(Math.ceil(persons / 2))
+    updateNumberOfPizzas(Math.ceil(persons / 3))
   }, [persons])
 
   return (
