@@ -1,9 +1,9 @@
-export const UPDATE_NUMBER_OF_PERSONS = "UPDATE_NUMBER_OF_PERSONS"
+export const UPDATE_NUMBER_OF_PEOPLE = "UPDATE_NUMBER_OF_PEOPLE"
 export const UPDATE_NUMBER_OF_PIZZAS = "UPDATE_NUMBER_OF_PIZZAS"
 
-export const updateNumberOfPersons = persons => ({
-  type: UPDATE_NUMBER_OF_PERSONS,
-  payload: persons
+export const updateNumberOfPeople = people => ({
+  type: UPDATE_NUMBER_OF_PEOPLE,
+  payload: people
 })
 
 export const updateNumberOfPizzas = pizzas => ({

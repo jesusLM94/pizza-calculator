@@ -5,7 +5,7 @@ const RangeSlider = props => {
 
   return (
     <div className="slider-container">
-      <span className="slider-title"> Number of Persons: </span>
+      <span className="slider-title"> Number of People: </span>
       <input className="range-input"
              value={value}
              type="range"

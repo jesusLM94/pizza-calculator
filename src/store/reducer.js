@@ -1,16 +1,16 @@
-import {UPDATE_NUMBER_OF_PERSONS, UPDATE_NUMBER_OF_PIZZAS} from "./actions";
+import {UPDATE_NUMBER_OF_PEOPLE, UPDATE_NUMBER_OF_PIZZAS} from "./actions";
 
 const initialState = {
   pizzas: 1,
-  persons: 1,
+  people: 1,
 }
 
 const reducer = (state = initialState, { type, payload }) => {
   switch (type) {
-    case UPDATE_NUMBER_OF_PERSONS:
+    case UPDATE_NUMBER_OF_PEOPLE:
       return {
         ...state,
-        persons: payload
+        people: payload
       }
     case UPDATE_NUMBER_OF_PIZZAS:
       return {
