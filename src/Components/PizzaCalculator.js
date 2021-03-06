@@ -16,7 +16,7 @@ export const PizzaCalculator = props => {
   return (
     <React.Fragment>
       <RangeSlider min={1} max={15} value={people} onChange={updateNumberOfPeople}/>
-      <h4 className="section-title"> Number of Pizzas </h4>
+      <h4 className="section-title"> Number of Pizzas (Large Size) </h4>
       <DisplayResult image={pizzaImage} result={pizzas} />
     </React.Fragment>
   )
